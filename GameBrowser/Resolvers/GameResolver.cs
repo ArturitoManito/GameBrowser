@@ -165,7 +165,7 @@ namespace GameBrowser.Resolvers
                     return new[] { ".disc", ".iso" };
 
                 case "Xbox 360":
-                    return new[] { ".disc", ".iso" };
+                    return new[] { ".disc", ".iso", ".zar" };
 
                 case "Xbox One":
                     return new[] { ".disc" };
