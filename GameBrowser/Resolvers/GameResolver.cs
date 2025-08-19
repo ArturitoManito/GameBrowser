@@ -180,7 +180,7 @@ namespace GameBrowser.Resolvers
                     return new[] { ".nds", ".zip" };
 
                 case "Nintendo 3DS":
-                    return new[] { ".3ds", ".cia" };
+                    return new[] { ".3ds", ".3dsx", ".cia", ".cxi" ".cci", ".zcci", ".zcxi", ".z3dsx" };
 
                 case "Nintendo":
                     return new[] { ".nes", ".zip" };
